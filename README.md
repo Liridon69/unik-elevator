@@ -6,7 +6,8 @@
 
 **In qb-smallresources/client/teleports.lua replace existing code with this**
 
-```local QBCore = exports['qb-core']:GetCoreObject()
+```
+local QBCore = exports['qb-core']:GetCoreObject()
 
 for k, v in pairs(Config.locations) do
     for i, location in pairs(v) do
@@ -97,7 +98,8 @@ RegisterNetEvent('qb-smallresources:client:teleportTo', function(data)
         end)
     end
     
-end)```
+end)
+```
 
 
 
@@ -140,12 +142,14 @@ Config.Teleports = {
             drawText = '[E] Leave'
         },
     },
-}```
+}
+```
 
 
 #Whit this
 
-```Config.locations = {
+```
+Config.locations = {
     ["Casino"] = {
         [1] = {
             ["name"] = "Casino",
@@ -163,4 +167,5 @@ Config.Teleports = {
             ["button"] = vector4(971.87, 51.41, 120.24, 145.8)
         },
     },
-}```
+}
+```
