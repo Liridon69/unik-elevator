@@ -1,7 +1,7 @@
 # Unik Elevator
 
 
-**This is just some snip code for qb-core **
+**This is just some snip code for qb-core**
 
 
 **In qb-smallresources/client/teleports.lua replace existing code with this**
@@ -110,7 +110,7 @@ end)
 
 
 
-**In qb-smallresources/config.lua replace  this code ** 
+**In qb-smallresources/config.lua replace  this code** 
 
 
 ```
@@ -146,7 +146,7 @@ Config.Teleports = {
 ```
 
 
-#Whit this
+**Whit this**
 
 ```
 Config.locations = {
