@@ -169,3 +169,4 @@ Config.locations = {
     },
 }
 ```
+**Drag and drop LiftSoundRingBell from sounds folder into interact-sound\client\html\sounds**
